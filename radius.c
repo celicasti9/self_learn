@@ -8,6 +8,8 @@ int main()
 
     scanf("%i", &radius); 
 
-    printf("%i\n", radius);
+    double area = 3.14159 * (radius * radius);
+
+    printf("The area of a circle with %i radius is %f\n",radius, area);
     return 0; 
-} 
+}  
