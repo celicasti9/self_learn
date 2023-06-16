@@ -3,8 +3,8 @@
 
 int main(void)
 {
-    int answer = get_int("Are you 21 or older?\nType 0 for no and 1 for yes\n");
-    if (answer == 1)
+    char answer = get_char("Are you 21 or older?\nType n for no and y for yes\n");
+    if (answer == 'y' || answer == 'Y')
     {
         int age = get_int("What's your age? ");
         if (age < 21) 
