@@ -25,4 +25,5 @@ int main(void)
     {
         printf("Sorry, come back when you're older!\n");
     }
+    return 0;
 }
